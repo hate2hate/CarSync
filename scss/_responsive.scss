@@ -1,0 +1,77 @@
+//   RESPONSIVE
+
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        background-color: $white;
+        border-bottom: 1px solid #ffffff9c;
+        
+        .container {
+    
+            .navbar-brand {
+    
+                img {
+                    width: 140px;
+            
+                    &.shrink {
+                        width:100px;
+                    }
+                }
+            }
+        }
+
+        .navbar-nav {
+            border-top: 1px solid #ffffff9c;
+
+            .log-in {
+                width: 145px;
+                margin-top: 6px;
+
+                .log{
+                    background-color: $black;
+                }
+            }
+
+            .nav-link {
+                text-shadow: none;
+                color: $gray;
+            }
+        }
+
+        .navbar-toggler {
+            font-size: 1.7rem;   
+
+            &:focus {
+                box-shadow: 1px 1px $black;
+            }
+            
+            i.fa.fa-bars {
+                color: $black;
+            }
+        } 
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+
+    .related {
+
+        li{
+            white-space: nowrap;
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+        }
+    }
+
+    .form-check {
+
+        .form-check-label {
+            font-size: 12px;
+        }
+    }
+    
+}
+
+

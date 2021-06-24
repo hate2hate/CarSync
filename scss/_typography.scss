@@ -1,0 +1,22 @@
+// Typography 
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-primary {
+  color: $white;
+  background-color: $light-blue;
+  border-color: $blue;
+  border-radius: 0;
+  width: 200px;
+
+  &:hover {
+    background-color: $white;
+    border-color: $light-blue;
+    color: $blue;
+    font-weight: 800;
+  }
+}
+

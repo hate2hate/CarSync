@@ -1,0 +1,32 @@
+// Colors 
+
+$blue: #0d1267;
+$white: rgb(255, 255, 255);
+$orange: #fcdc31;
+$gray: #9a9696;
+$light-gray: #f9f9f9;
+$light-blue: #1615af;
+$violet: #6766ff;
+$green: #0f9a49;
+$black: #000000;
+$l-black: #262528;
+
+// Font colors
+
+.gray { color: $gray !important; }
+.light-blue { color: $light-blue !important; }
+.orange { color: $orange !important; }
+.blue { color: $blue !important; }
+.white { color: $white !important; }
+.violet { color: $violet !important; }
+.green { color: $green !important; }
+.black { color: $black !important; }
+.l-black { color: $l-black !important; }
+
+// Background colors
+
+.bg-blue { background-color: $blue !important; }
+.bg-l-blue { background-color: $light-blue !important; }
+.bg-blue { background-color: $blue !important; }
+.bg-gray { background-color: $gray !important; }
+.bg-light-gray { background-color: $light-gray !important; }
